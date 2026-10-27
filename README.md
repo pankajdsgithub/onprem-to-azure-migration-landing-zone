@@ -1,14 +1,11 @@
-# onprem-to-azure-migration-landing-zone
+# On-prem to Azure Migration Landing Zone
 
-Azure portfolio repository for enterprise architecture, cloud transformation, and platform engineering.
+This repository documents the landing-zone and migration approach required to move enterprise applications and infrastructure into Azure with clear phases, governance, and operational readiness.
 
-## Scope
-
-- Azure solution architecture
-- Cloud migration and landing-zone design
-- Platform engineering, GitOps, and Kubernetes
-- Security, governance, and DevSecOps
-
-## Purpose
-
-This repository is intended as a reusable reference and portfolio asset for enterprise Azure delivery.
+```mermaid
+flowchart LR
+    A[Assess] --> B[Design Landing Zone]
+    B --> C[Migrate Pilot]
+    C --> D[Wave Migration]
+    D --> E[Optimize and Operate]
+```

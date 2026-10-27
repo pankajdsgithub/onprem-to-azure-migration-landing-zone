@@ -1,0 +1,2 @@
+Application,Owner,CurrentPlatform,Dependency,TargetPattern,Priority
+App01,TeamA,VMware,SQL Server,Rehost,High
